@@ -1,0 +1,42 @@
+{
+    "exchange": {
+        "id": "binance",
+        "commission": 0.0004,
+        "api_key": "",
+        "secret": ""
+    },
+    "capital": 10000,
+    "data": {
+        "db_path": "data/market_data.h5",
+        "symbols": ["BTC/USDT"],
+        "timeframes": ["1h"]
+    },
+    "trading": {
+        "leverage": 2,
+        "default_symbol": "BTC/USDT",
+        "default_timeframe": "1h"
+    },
+    "risk": {
+        "max_position_size": 0.5,
+        "max_drawdown": 0.15,
+        "volatility_target": 0.25
+    },
+    "gp": {
+        "population_size": 300,
+        "generations": 50,
+        "tournament_size": 7,
+        "crossover_prob": 0.9,
+        "mutation_prob": 0.1,
+        "max_depth": 8,
+        "hall_of_fame_size": 10
+    },
+    "logging": {
+        "path": "logs/trading_system.log",
+        "rotation": "10 MB",
+        "console_level": "INFO",
+        "file_level": "DEBUG"
+    },
+    "results": {
+        "directory": "results"
+    }
+}
