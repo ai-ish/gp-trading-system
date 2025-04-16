@@ -1,0 +1,31 @@
+# Core dependencies
+numpy==1.24.3
+pandas==2.0.2
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Genetic programming
+deap==1.4.1
+
+# Data handling
+h5py==3.8.0
+tables==3.8.0
+
+# Technical analysis
+scikit-learn==1.2.2
+
+# Visualization
+plotly==5.15.0
+
+# Utilities
+tqdm==4.65.0
+jupyter==1.0.0
+ipython==8.12.0
+
+# Development
+pytest>=6.2.5
+black>=21.5b2
+isort>=5.9.0
+mypy>=0.910
+pydantic>=1.8.0
+loguru>=0.5.3
